@@ -1,0 +1,7 @@
+$hoverColor: #EEA78E;
+.title-style{
+  th:hover{
+    cursor: pointer;
+    color: $hoverColor
+  }
+}

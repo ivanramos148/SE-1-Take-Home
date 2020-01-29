@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+
+
 const list = [{
   titleName: 'Fast & Furious Presents: Hobbs & Shaw',
   distributorName: 'Universal',
