@@ -1,7 +1,35 @@
-$hoverColor: #EEA78E;
-.title-style{
-  th:hover{
-    cursor: pointer;
-    color: $hoverColor
+thead {
+  .title-style{
+    font-weight: 400;
+    td:hover{
+      cursor: pointer;
+    }
+    .iconStyle{
+      float: right;
+      .fa-long-arrow-alt-down{
+        font-size: 12px
+      }
+      .fa-long-arrow-alt-up{
+        font-size: 12px
+      }
+      .fa-long-arrow-alt-down:active{
+        color: grey
+      }
+      .fa-long-arrow-alt-up:active{
+        color: grey
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .title-style{
+    font-weight: 400;
+    td:hover{
+      cursor: pointer;
+    }
+    .iconStyle{
+      display: none;
+
+    }
   }
 }

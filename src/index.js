@@ -6,6 +6,7 @@ import App from './App';
 
 
 const list = [{
+  id: 1,
   titleName: 'Fast & Furious Presents: Hobbs & Shaw',
   distributorName: 'Universal',
   weekendRev: 60800000,
@@ -13,6 +14,7 @@ const list = [{
   locAvg: 14296,
   cumeRev: 60800000
 },{
+  id: 2,
   titleName: 'Lion King, The',
   distributorName: 'Disney',
   weekendRev: 38246000,
@@ -20,6 +22,7 @@ const list = [{
   locAvg: 7965,
   cumeRev: 430889078
 },{
+  id: 3,
   titleName: 'Once Upon A Time In Hollywood',
   distributorName: 'Sony',
   weekendRev: 20025000,
@@ -28,6 +31,7 @@ const list = [{
   cumeRev: 78842475
 },
 {
+  id: 4,
   titleName: 'Spider-Man: Far From Home',
   distributorName: 'Sony',
   weekendRev: 7755000,
@@ -36,6 +40,7 @@ const list = [{
   cumeRev: 360328925
 },
 {
+  id: 5,
   titleName: 'Toy Story 4',
   distributorName: 'Disney',
   weekendRev: 7150000,
@@ -43,6 +48,7 @@ const list = [{
   locAvg: 2217,
   cumeRev: 410050743
 },{
+  id: 6,
   titleName: 'Yesterday',
   distributorName: 'Universal',
   weekendRev: 2440000,
@@ -50,6 +56,7 @@ const list = [{
   locAvg: 1328,
   cumeRev: 67902655
 },{
+  id: 7,
   titleName: 'Farewell, The',
   distributorName: 'A24',
   weekendRev: 2429114,
@@ -57,6 +64,7 @@ const list = [{
   locAvg: 5939,
   cumeRev: 6842321
 },{
+  id: 8,
   titleName: 'Crawl',
   distributorName: 'Paramount',
   weekendRev: 2150000,
@@ -65,6 +73,7 @@ const list = [{
   cumeRev: 36090773
 },
 {
+  id: 9,
   titleName: 'Aladdin',
   distributorName: 'Disney',
   weekendRev: 2018000,
@@ -72,6 +81,7 @@ const list = [{
   locAvg: 1473,
   cumeRev: 350369592
 },{
+  id: 10,
   titleName: 'Annabelle Comes Home',
   distributorName: 'Warner Bros.',
   weekendRev: 875000,
@@ -79,6 +89,7 @@ const list = [{
   locAvg: 952,
   cumeRev: 71575112
 },{
+  id: 11,
   titleName: 'Secret Life Of Pets 2, The',
   distributorName: 'Universal',
   weekendRev: 730000,
@@ -86,6 +97,7 @@ const list = [{
   locAvg: 937,
   cumeRev: 155409025
 },{
+  id: 12,
   titleName: 'Stuber',
   distributorName: '20th Century Fox',
   weekendRev: 506000,

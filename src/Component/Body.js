@@ -1,17 +1,25 @@
 import React from 'react';
+import Content from './Content.js';
+
 let Body = (props) => {
+  let listOfMovies = props.array
+
   return(
     <tbody>
-      <tr>
-        <td>#{props.amount}</td>
-        <td>{props.titleName}</td>
-        <td>{props.distributorName}</td>
-        <td>{props.weekendRev}</td>
-        <td>{props.weekendRev}</td>
-        <td>{props.locs}</td>
-        <td>{props.cumeRev}</td>
-      </tr>
+      {listOfMovies.map( (list, index) =>
+        <Content
+          ListStyleNum={index}
+          amountOfMovies={list.id}
+          titleName={list.titleName}
+          distributorName={list.distributorName}
+          weekendRev={list.weekendRev}
+          locs={list.locs}
+          locAvg={list.locAvg}
+          cumeRev={list.cumeRev}
+          key={index}
+        />)}
     </tbody>
   )
 }
+
 export default Body
